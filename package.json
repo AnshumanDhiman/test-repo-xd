@@ -10,16 +10,8 @@
     "build": "webpack --mode development",
     "prod": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd.git"
-  },
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd/issues"
-  },
-  "homepage": "https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd#readme",
   "husky": {
     "hooks": {
       "pre-commit": "npx prettier --write . && npx eslint ."
