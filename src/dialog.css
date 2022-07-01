@@ -1,0 +1,101 @@
+.dialog form {
+  width: 360px;
+}
+.h1 {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.label {
+  margin: 0 8px;
+}
+
+.iconDialog svg {
+  width: 50px;
+  height: 50px;
+}
+
+.select-tag {
+  width: 50%;
+}
+
+.select-container {
+  display: flex;
+  column-gap: 10%;
+}
+
+.select-container label {
+  width: 45%;
+  padding-right: 5%;
+}
+.select-container label:first-of-type {
+  width: 50%;
+}
+
+.select-container select {
+  width: 100%;
+}
+
+.image-box {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 10px 0;
+}
+
+.image-container:hover {
+  background-color: #d3d3d3b8;
+}
+
+.image-container .image-container-text {
+  visibility: hidden;
+  cursor: default;
+  background-color: rgba(0, 0, 0, 0.801);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.text-container {
+  position: relative;
+  margin-top: 25px;
+}
+
+.image-container:hover .image-container-text {
+  visibility: visible;
+}
+
+.category-container span {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 4px 0;
+}
+
+.alert {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  background: white;
+  padding: 10px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+}
+
+.input-box input {
+  width: 70%;
+}
